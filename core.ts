@@ -78,6 +78,6 @@ export const robinhoodPluginMeta = {
   name: "Robinhood",
   version: "1.0.0",
   description: "Read-only account and position sync through Robinhood Trading MCP.",
-  homepage: "https://github.com/gloom-sh/gloomberb-robinhood",
+  homepage: "https://github.com/gloom-sh/gloom-robinhood",
   toggleable: true,
 } as const;

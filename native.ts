@@ -175,12 +175,12 @@ async function connectMcp(provider: RobinhoodOAuthProvider, callback: OAuthCallb
 }> {
   const makeConnection = async () => {
     const transport = new StreamableHTTPClientTransport(new URL(ROBINHOOD_MCP_URL), { authProvider: provider });
-    const client = new Client({ name: "gloomberb-robinhood-sync", version: "1.0.0" }, { capabilities: {} });
+    const client = new Client({ name: "gloom-robinhood-sync", version: "1.0.0" }, { capabilities: {} });
     await client.connect(transport);
     return { client, transport };
   };
   const transport = new StreamableHTTPClientTransport(new URL(ROBINHOOD_MCP_URL), { authProvider: provider });
-  const client = new Client({ name: "gloomberb-robinhood-sync", version: "1.0.0" }, { capabilities: {} });
+  const client = new Client({ name: "gloom-robinhood-sync", version: "1.0.0" }, { capabilities: {} });
   try {
     await client.connect(transport);
     return { client, transport };
