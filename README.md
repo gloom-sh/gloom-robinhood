@@ -1,9 +1,9 @@
-# gloomberb-robinhood
+# gloom-robinhood
 
 Read-only account and position sync for [Robinhood](https://robinhood.com) in [Gloomberb](https://github.com/gloom-sh/gloomberb), over the Robinhood Trading MCP endpoint.
 
 ```bash
-gloomberb install gloom-sh/gloomberb-robinhood
+gloomberb install gloom-sh/gloom-robinhood
 ```
 
 ## Setup

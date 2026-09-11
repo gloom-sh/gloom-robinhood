@@ -1,5 +1,5 @@
 {
-  "name": "gloomberb-robinhood",
+  "name": "gloom-robinhood",
   "version": "1.0.0",
   "description": "Read-only account and position sync through Robinhood Trading MCP",
   "type": "module",
@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gloom-sh/gloomberb-robinhood"
+    "url": "https://github.com/gloom-sh/gloom-robinhood"
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
