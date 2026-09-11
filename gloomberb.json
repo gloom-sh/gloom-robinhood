@@ -1,0 +1,23 @@
+{
+  "id": "robinhood",
+  "name": "Robinhood",
+  "icon": "icon.svg",
+  "tagline": "Read-only account and position sync through Robinhood Trading MCP",
+  "description": "Sync Robinhood accounts and equity positions over the Robinhood Trading MCP endpoint. Signs in with OAuth in your browser, asks for the two read-only tools it needs, and refuses to run if either is not marked read-only. No order placement.",
+  "categories": [
+    "broker"
+  ],
+  "targets": [
+    "cli",
+    "tui",
+    "desktop"
+  ],
+  "hosts": [
+    "agent.robinhood.com",
+    "robinhood.com"
+  ],
+  "contributes": {
+    "broker": true
+  },
+  "minGloomberb": "0.12.0"
+}
